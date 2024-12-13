@@ -112,3 +112,20 @@ void Logic()
         prevX = prev2X;
         prevY = prev2Y;
     }
+    switch (dir)
+    {
+    case LEFT:
+        x--;
+        break;
+    case RIGHT:
+        x++;
+        break;
+    case UP:
+        y--;
+        break;
+    case DOWN:
+        y++;
+        break;
+    default:
+        break;
+    }
