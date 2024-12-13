@@ -151,3 +151,15 @@ void Logic()
         nTail++;
     }
 }
+int main()
+{
+    Setup();
+    while (!gameOver)
+    {
+        Draw();
+        Input();
+        Logic();
+        Sleep(10); // Sleep(10) for a smoother game
+    }
+    return 0;
+}
